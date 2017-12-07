@@ -1,0 +1,20 @@
+{
+  "extends": [
+	  "prettier-standard"
+  ],
+
+  "env": {
+    "jest": true
+  },
+
+  "globals": {
+    "include": false,
+    "click": false,
+    "exists": false,
+    "sleep": false,
+    "type": false,
+    "visit": false,
+    "firebaseEmail": false,
+    "firebasePassword": false
+  }
+}
